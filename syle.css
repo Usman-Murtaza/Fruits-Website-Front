@@ -1,0 +1,122 @@
+*{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+}
+.page ul li{
+    display: inline-block;
+    margin:0 18px ;
+    line-height: 80px;
+    font-size: 20px;
+    font-family:monospace;
+    font-weight: lighter;
+}
+.page ul li a{
+    text-decoration: none;
+    color: black;
+    transition: 0.3s all;
+    padding: 20px;
+}
+.page ul li a:hover{
+color: rgb(235, 90, 38);
+}
+.nav{
+    display: flex;
+    justify-content: space-between;
+    padding-left: 40px;
+    padding-right: 70px;
+    padding-top: 10px;
+}
+.bt{
+    background-color: rgb(235, 90, 38);
+    text-decoration-color: white;
+    color: white;
+    border: none;
+    width: 130px;
+    height: 33px;
+}
+.head{
+    width: 600px;
+    padding-left: 40px;
+    padding-top: 60px;
+}
+.head h1{
+    font-size: 60px;
+    font-weight: bolder;
+}
+.bn{
+    background-color: rgb(235, 90, 38);
+    text-decoration-color: white;
+    color: white;
+    border: none;
+    width: 130px;
+    height: 38px;
+}
+.head2{
+    padding-left: 40px;
+}
+.b{
+    background-color: rgb(0, 0, 0);
+    text-decoration-color: white;
+    color: white;
+    border: none;
+    width: 130px;
+    height: 38px;
+}
+.slideimg{
+    display: inline;
+    position: absolute;
+    top: 190px;
+    left: 600px;
+}
+.service{
+    align-items: center;
+    font-weight: bolder;
+    display: flex;
+    justify-content: center;
+}
+.linesev{
+    display: flex;
+    justify-content: center;
+}
+h5{
+    text-decoration-color: white;
+}
+.read{
+    background-color: rgb(0, 0, 0);
+    text-decoration-color: white;
+    color: white;
+    border: none;
+    width: 130px;
+    height: 38px;
+}
+.readmore{
+    display: flex;
+    justify-content: center;
+}
+h4{
+    font-size:30px ;
+}
+.client{
+    display: flex;
+    justify-content: center;
+}
+h6{
+    border-bottom: 2px solid black;
+}
+.sub{
+    font-size: 25px;
+    font-weight: 400;
+}
+.copy{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    background-color: rgb(235, 90, 38);
+    text-decoration-color: white;
+    color: white;
+    border: none;
+    width: 100%;
+    height: 33px;
+}
